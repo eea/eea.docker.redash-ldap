@@ -1,4 +1,4 @@
-FROM redash/redash:8.0.2.b37747
+FROM redash/redash:10.0.0.b50363
 
 USER root
 COPY json_ds.py /app/redash/query_runner/json_ds.py
